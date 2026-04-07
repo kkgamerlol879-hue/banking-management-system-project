@@ -20,7 +20,7 @@ int isvalid_account_number(long long acc_num)
 void create_account()
 
 {
-    if (account_number >= 12) {
+    if (account_number >= 11) {
         printf("Maximum number of accounts reached.\n");
         return;
     }
